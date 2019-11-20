@@ -139,11 +139,15 @@ def format_number(probabilities):
 
 
 def main():
+    # B
     prepare_average_for_probability_data(10)
+    # C
     prepare_average_for_amount_data(10, 100)
+    # D
     prepare_average_for_game_length(0.2)
     prepare_average_for_game_length(0.5)
     prepare_average_for_game_length(0.8)
+    # G
     prepare_data_for_course_of_multiple_games(0.2)
     prepare_data_for_course_of_multiple_games(0.5)
     prepare_data_for_course_of_multiple_games(0.8)
